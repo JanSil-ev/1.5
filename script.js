@@ -1,6 +1,11 @@
 document.getElementById("hideButton").addEventListener("click", function () {
-  var brandButtons = document.querySelectorAll(".brand-button:nth-last-child(-n+3)");
+  const child = window.matchMedia('(min-width: 768px)').matches ? 3 : 5;
+  const brandButtons = document.querySelectorAll(
+    `.brand-button:nth-last-child(-n+${child})`  );
+
   brandButtons.forEach(function (button) {
-    button.style.display = button.style.display === "none" ? "flex" : "none";
+    button.style.display = button.style.display === "flex" ? "none" : "flex";
   });
+  this.textContent = this.textContent === "Скрыть" ? "Показать" : "Скрыть";
 });
+
