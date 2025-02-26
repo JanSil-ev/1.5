@@ -174,7 +174,7 @@ footer {
 #hideButton::before {
   content: "";
   position: absolute;
-  background-image: url(/icon/expandDown.svg);
+  background-image: url(./icon/expandDown.svg);
   height: 24px;
   width: 24px;
   left: 0;
@@ -183,7 +183,7 @@ footer {
 #hideButton.tap::before {
   content: "";
   position: absolute;
-  background-image: url(/icon/expandUp.svg);
+  background-image: url(./icon/expandUp.svg);
   height: 24px;
   width: 24px;
   left: 0;
