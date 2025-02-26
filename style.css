@@ -140,6 +140,11 @@ hr {
   background: url(/icon/go.svg) no-repeat center/cover;
   background-color: none;
   cursor: pointer;
+  transition: 1s
+}
+
+.arrow-icon:hover {
+  transform: scale(1.2);
 }
 
 footer {
@@ -161,6 +166,11 @@ footer {
   cursor: pointer;
   background-color: transparent;
   position: relative;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+#hideButton:hover {
+  opacity: 0.5;
 }
 
 #hideButton::before {
@@ -216,8 +226,6 @@ footer {
   border-radius: 10px;
 }
 
-.brands-high {
-}
 
 @media (max-width: 320px) {
   .brands {
