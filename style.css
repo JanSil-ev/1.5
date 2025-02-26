@@ -137,7 +137,7 @@ hr {
 .arrow-icon {
   width: 40px;
   height: 40px;
-  background: url(/icon/go.svg) no-repeat center/cover;
+  background: url(../1.5/icon/go.svg) no-repeat center/cover;
   background-color: none;
   cursor: pointer;
   transition: 1s
