@@ -137,7 +137,7 @@ hr {
 .arrow-icon {
   width: 40px;
   height: 40px;
-  background: url(../1.5/icon/go.svg) no-repeat center/cover;
+  background: url(./icon/go.svg) no-repeat center/cover;
   background-color: none;
   cursor: pointer;
   transition: 1s
@@ -153,9 +153,7 @@ footer {
   margin-top: auto;
   padding: 0 20px;
 }
-/* .brand-button:nth-last-child(-n + 3) {
-  display: none;
-} */
+
 
 #hideButton {
   padding: 20px 30px;
