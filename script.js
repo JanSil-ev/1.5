@@ -1,4 +1,4 @@
-var x = window.matchMedia("(max-width: 321px)");
+let x = window.matchMedia("(max-width: 321px)");
 myFunction(x);
 function myFunction(x) {
   if (x.matches) {
